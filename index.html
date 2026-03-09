@@ -1,0 +1,1518 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Web & Software</title>
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font end -->
+    <!-- common css and -->
+    <link rel="stylesheet" href="src/all.min.css" />
+    <link rel="stylesheet" href="src/output.css" />
+    <!-- common css and -->
+
+    
+  </head>
+  <body>
+    <!-- header part start -->
+    <section>
+      <header>
+        <div class="bg-[#050111] lg:py-4 py-6 ">
+          <div class="max-w-container mx-auto sm:px-6 px-3 xl:px-0">
+            <div class="flex flex-row items-center gap-y-3 justify-between">
+              <div class="flex sm:justify-center lg:justify-start">
+                <img src="images/logo.png" alt="logo.png" class="lg:w-full w-[60%]"/>
+              </div>
+              <!-- Mobile icon -->
+              <div
+                class="lg:hidden text-white lg:w-[40%] text-2xl relative"
+                id="menu-toggle"
+              >
+                <button><i class="fa-solid fa-bars-staggered"></i></button>
+              </div>
+              <!-- Mobile icon -->
+              <nav class="sm:mx-auto lg:mx-0 hidden lg:block">
+                <ul
+                  class="flex flex-col sm:flex-col gap-x-10 lg:flex-row gap-y-4 text-white text-base font-semibold font-roboto lg:py-5 "
+                >
+                  <li><a href="#" class="font-hind">হোম</a></li>
+                  <li><a href="#" class="font-hind">অ্যাবাউট</a></li>
+                  <li><a href="#" class="font-hind">কন্টাক্ট</a></li>
+                  <li><a href="#" class="font-hind">সার্ভিস</a></li>
+                  <li><a href="#" class="font-hind">ব্লগ</a></li>
+                </ul>
+              </nav>
+              <button class="relative px-4 py-2.5 rounded-[10px] border border-[#7451FD] overflow-hidden group cursor-pointer hidden lg:block">
+                <span class="absolute inset-0 bg-gradientNew opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                </span> <p class="relative z-10 font-medium font-hind text-base text-white">এনরোল করুন <i class="fa-solid fa-arrow-right-long"></i></p>
+              </button>
+            </div>
+            <!-- Mobile Device -->
+            <div
+              class="absolute left-1/2 -translate-x-1/2 top-20 opacity-0 scale-95 pointer-events-none transition-all duration-300 ease-out origin-top lg:hidden flex-col items-center text-center gap-y-3 py-6 mt-5 mx-auto rounded-xl bg-[#1D1E4F]/80 shadow-xl backdrop-blur-xl border border-white/20 w-full justify-center z-99 lg:z-0"
+              id="mobile-menu"
+            >
+              <nav class="sm:mx-auto lg:mx-0 ">
+                <ul
+                  class="flex flex-col sm:flex-col gap-x-10 lg:flex-row gap-y-10 text-white text-base font-semibold font-roboto lg:py-5"
+                >
+                  <li><a href="#" class="font-hind">হোম</a></li>
+                  <li><a href="#" class="font-hind">অ্যাবাউট</a></li>
+                  <li><a href="#" class="font-hind">কন্টাক্ট</a></li>
+                  <li><a href="#" class="font-hind">সার্ভিস</a></li>
+                  <li><a href="#" class="font-hind">ব্লগ</a></li>
+                </ul>
+              </nav>
+                  <button
+                    class="relative px-4 py-2.5 rounded-[10px] border border-[#7451FD] overflow-hidden group cursor-pointer mt-8"
+                  >
+                    <span
+                      class="absolute inset-0 bg-gradientNew opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    >
+                    </span>
+                    <p
+                      class="relative z-10 font-medium font-roboto text-[18px] text-white"
+                    >
+                      Get Enroll<i class="fa-solid fa-arrow-right-long ml-2"></i>
+                    </p>
+                  </button>
+            </div>
+            <!-- Mobile Device -->
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- header part end -->
+
+    <!-- banner part start -->
+    <section id="banner">
+      <div
+        class="bg-[url('/images/bannerBg.png')] lg:pt-35.5 pt-10 pb-10 lg:pb-19.75 bg-center bg-cover bg-no-repeat"
+      >
+        <div class="max-w-container mx-auto px-3 xl:px-0">
+          <div class="lg:flex lg:justify-between items-center">
+            <!-- left side -->
+            <div class="left">
+              <!-- badge -->
+              <div
+                class="md:px-4 md:py-2.5 lg:px-3 lg:py-2 px-3 py-2 rounded-full bg-[#FBFF8D] flex gap-x-1 mx-auto lg:mx-0 items-center w-76.25 sm:w-79 lg:w-79 md:w-81"
+              >
+                <img src="/images/fire.png" alt="fire.png" class="sm:w-5" />
+                <p class="sm:text-[12px] text-[11px] font-hind text-[#050111]">
+                  কিছু ওভারলাইন মানানসই টেক্সট এখানে থাকবে
+                </p>
+              </div>
+              <!-- badge -->
+              <!-- heading text -->
+              <!-- heading text -->
+              <div class="pt-2">
+                <h1
+                  class="lg:text-[72px] text-[35px] text-white font-bold font-hind lg:w-151.75 w-full text-center lg:text-left leading-[120%]"
+                >
+                  Web & Software
+                  <span class="text-brand ">-এর জন্য টাইটেল</span>
+                </h1>
+              </div>
+              <!-- heading text -->
+              <!-- small badge -->
+              <div class="pt-5">
+                <div
+                  class="flex flex-wrap lg:flex-nowrap gap-x-4 gap-y-5 items-center justify-center lg:justify-normal"
+                >
+                  <div
+                    class="py-2 px-3 bg-[#634071] border border-[#EDB5FF] rounded-[10px]"
+                  >
+                    <p class="text-[#EDB5FF] text-[14px] font-hind">
+                      বাটন লেবেল <i class="fa-solid fa-desktop ml-2"></i>
+                    </p>
+                  </div>
+                  <div
+                    class="py-2 px-3 bg-[#3D6849] border border-[#96FFA2] rounded-[10px]"
+                  >
+                    <p class="text-[#96FFA2] text-[14px] font-hind">
+                      বাটন লেবেল <i class="fa-solid fa-user-group ml-2"></i>
+                    </p>
+                  </div>
+                  <div
+                    class="py-2 px-3 bg-[#7C523D] border border-[#FFC081] rounded-[10px]"
+                  >
+                    <p class="text-[#FFC081] text-[14px] font-hind">
+                      বাটন লেবেল <i class="fa-solid fa-crown ml-2"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- small badge -->
+              <div class="pt-5">
+                <p
+                  class="text-[#A9B0B8] lg:text-[18px] text-sm font-hind lg:w-xl lg:leading-[150%] text-center lg:text-left"
+                >
+                  লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস।
+                </p>
+              </div>
+              <div class="pt-6">
+                <div
+                  class="flex gap-x-4 flex-col lg:flex-row gap-y-4 my-4 lg:my-0 items-center text-center lg:text-left"
+                >
+                  <button
+                    class="relative p-4 rounded-[10px] border border-[#7451FD] overflow-hidden group cursor-pointer"
+                  >
+                    <span
+                      class="absolute inset-0 bg-gradientNew opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    >
+                    </span>
+                    <p
+                      class="relative z-5 font-medium font-hind text-[18px] text-white"
+                    >
+                      আপ্লাই করুন ৪০% ডিসকাউন্ট<i
+                        class="fa-solid fa-download ml-2"
+                      ></i>
+                    </p>
+                  </button>
+                  <button
+                    class="relative p-4 rounded-[10px] border border-[#7451FD] overflow-hidden group cursor-pointer"
+                  >
+                    <span
+                      class="absolute inset-0 bg-gradientNew opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    >
+                    </span>
+                    <p
+                      class="relative z-5 font-medium font-hind text-[18px] text-white"
+                    >
+                      কারিকুলাম ডাউনলোড করুন <i class="fa-solid fa-crown ml-2"></i>
+                    </p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- left side -->
+            <!-- right side -->
+            <div class="right">
+              <!-- input field -->
+              <div
+                class="relative p-0.75 w-full xl:w-115.25 rounded-[10px] overflow-hidden  shadow-newShadow"
+              >
+                <div
+                  class="absolute inset-0 linearInput"
+                ></div>
+                <div class="relative bg-[#050111] rounded-[9px] p-6 z-10">
+                  <div class="text text-white pb-8">
+                    <h3
+                      class="text-center text-[28px] font-semibold font-hind leading-[150%]"
+                    >
+                      আপনার আসন এখনই নিশ্চিত করুন
+                    </h3>
+                    <p class="text-center font-hind text-[#A9B0B8] text-base">
+                      আপনার পেশাদার ক্যারিয়ার বিনামূল্যে শুরু করুন
+                    </p>
+                  </div>
+                  <div class="name py-1">
+                    <h4
+                      class="text-[12px] font-hind font-medium text-[#A9B0B8] pb-2"
+                    >
+                      আপনার পুরো নাম
+                    </h4>
+                    <div class="relative">
+                      <input
+                        type="text"
+                        placeholder="এখানে লিখুন"
+                        class="peer py-2.5 px-9 bg-[#1A2130] focus:bg-[#45587C] duration-300 w-full rounded-[10px] border border-[#7451FD] outline-none placeholder:text-[#6F7B88] focus:placeholder:text-white text-[12px] text-white font-medium font-hind"
+                      />
+                      <i
+                        class="fa-regular fa-user absolute left-3 top-1/2 -translate-y-1/2 text-[#6F7B88] text-[12px] transition-colors duration-300 peer-focus:text-white"
+                      >
+                      </i>
+                    </div>
+                  </div>
+                  <div class="number py-1">
+                    <h4
+                      class="text-[12px] font-hind font-medium text-[#A9B0B8] pb-2"
+                    >
+                      ফোন নম্বর
+                    </h4>
+                    <div class="relative">
+                      <input
+                        type="tel"
+                        placeholder="এখানে লিখুন"
+                        class="peer py-2.5 px-9 bg-[#1A2130] focus:bg-[#45587C] duration-300 w-full rounded-[10px] border border-[#7451FD] outline-none placeholder:text-[#6F7B88] focus:placeholder:text-white text-[12px] text-white font-medium font-hind"
+                      />
+                      <i
+                        class="fa-solid fa-phone-volume absolute left-3 top-1/2 -translate-y-1/2 text-[#6F7B88] text-[12px] transition-colors duration-300 peer-focus:text-white"
+                      >
+                      </i>
+                    </div>
+                  </div>
+                  <div class="email py-3">
+                    <h4
+                      class="text-[12px] font-hind font-medium text-[#A9B0B8] pb-2"
+                    >
+                      ইমেইল ঠিকানা (ঐচ্ছিক)
+                    </h4>
+                    <div class="relative">
+                      <input
+                        type="email"
+                        placeholder="এখানে লিখুন"
+                        class="peer py-2.5 px-9 bg-[#1A2130] focus:bg-[#45587C] duration-300 w-full rounded-[10px] border border-[#7451FD] outline-none placeholder:text-[#6F7B88] focus:placeholder:text-white text-[12px] text-white font-medium font-inter"
+                      />
+                      <i
+                        class="fa-regular fa-envelope absolute left-3 top-1/2 -translate-y-1/2 text-[#6F7B88] text-[12px] transition-colors duration-300 peer-focus:text-white"
+                      >
+                      </i>
+                    </div>
+                  </div>
+                  <div class="goals pt-3 pb-6">
+                    <h4
+                      class="text-[12px] font-hind font-medium text-[#A9B0B8] pb-2"
+                    >
+                      আপনার সেশন বেছে নিন
+                    </h4>
+                    <div class="relative">
+                      <input
+                        type="text"
+                        placeholder="সেশন নির্বাচন করুন"
+                        class="peer py-2.5 px-9 bg-[#1A2130] focus:bg-[#45587C] duration-300 w-full rounded-[10px] border border-[#7451FD] outline-none placeholder:text-[#6F7B88] focus:placeholder:text-white text-[12px] text-white font-medium font-inter"
+                      />
+                      <i
+                        class="fa-solid fa-award absolute left-3 top-1/2 -translate-y-1/2 text-[#6F7B88] text-[12px] transition-colors duration-300 peer-focus:text-white"
+                      >
+                      </i>
+                    </div>
+                  </div>
+                  <button
+                    class="relative p-4 rounded-[10px] border border-[#7451FD] overflow-hidden group cursor-pointer w-full"
+                  >
+                    <span
+                      class="absolute inset-0 bg-gradientNew opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    >
+                    </span>
+                    <p
+                      class="relative z-10 font-medium font-hind text-[18px] text-white"
+                    >
+                      আমার আসন বুক করুন<i
+                        class="fa-solid fa-arrow-right-long ml-2 items-center"
+                      ></i>
+                    </p>
+                  </button>
+                  <div class="mt-4">
+                    <p class="text-[14px] font-hind text-[#A9B0B8] text-center">
+                      এখানে কিছু মানানসই টেক্সট থাকবে
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- input field -->
+            </div>
+            <!-- right side -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner part end -->
+
+    <!-- Promotion Video -->
+    <section class="pt-15 pb-30 bg-[#050111]">
+      <div class="2xl:bg-[url('/images/pVideo.png')] bg-no-repeat bg-center ">
+        <div class="max-w-container mx-auto px-3 xl:px-0">
+          <h3 class="lg:text-[56px] text-[35px] font-extrabold text-center text-white leading-[130%] font-hind">
+            এখানে প্রচারমূলক
+            <span class="text-brand">
+              ভিডিও থাকবে
+            </span>
+          </h3>
+          <p class="text-[#A9B0B8] lg:text-[18px] text-sm leading-[150%] text-center lg:w-[894px] w-full mx-auto pt-4 pb-10 font-hind">
+            লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস
+          </p>
+          <div class="relative p-2 rounded-2xl bg-linear-to-r from-[#4E95FF] to-[#7F5CFF] mx-auto w-fit">
+            
+            <div class="relative rounded-2xl overflow-hidden bg-[#050111]">
+              <img src="images/pv.png" class="mx-auto block" alt="Promotion Video" />
+              
+              <a href="https://www.youtube.com/watch?v=TD_N2VR3P1s" target="_blank"
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-16 h-16 lg:w-20 lg:h-20"
+              >
+                <span class="absolute inline-flex h-full w-full rounded-full bg-white/70 animate-ping"></span>
+                <div class="relative z-10 w-full h-full bg-white rounded-full flex items-center justify-center shadow-[0_0_15px_rgba(0,0,0,0.5)] hover:scale-105 transition-transform duration-300">
+                  <svg class="lg:w-15 lg:h-15 w-10 h-10 text-[#E50914] ml-1" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col lg:flex-row gap-y-5 justify-between mt-8">
+            <div class="font-hind">
+              <h5 class="text-white text-xl font-semibold">
+                এখানে কিছু টেক্সট থাকবে
+              </h5>
+              <p class="text-[#A9B0B8] text-sm leading-[150%] lg:w-82 w-full pt-2">
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক
+              </p>
+            </div>
+            <div class="font-hind">
+              <h5 class="text-white text-xl font-semibold">
+                এখানে কিছু টেক্সট থাকবে
+              </h5>
+              <p class="text-[#A9B0B8] text-sm leading-[150%] lg:w-82 w-full pt-2">
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক
+              </p>
+            </div>
+            <div class="font-hind">
+              <h5 class="text-white text-xl font-semibold">
+                এখানে কিছু টেক্সট থাকবে
+              </h5>
+              <p class="text-[#A9B0B8] text-sm leading-[150%] lg:w-82 w-full pt-2">
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Promotion Video -->
+
+    <!-- course module -->
+    <section class="relative bg-[#050111] overflow-hidden">
+      <div
+        class="absolute inset-0 z-0 pointer-events-none opacity-100"
+        style="
+          background-image: url('images/courseBg.png');
+          background-repeat: no-repeat;
+          background-position: center top;
+          background-size: 100% auto;">
+      </div>
+      <div
+        class="relative z-10 xl:w-container w-full mx-auto px-3 xl:px-0 md:px-8 pt-16 md:pt-20 lg:pt-26 pb-20 md:pb-24"
+      >
+        <div class="text-center">
+          <h2
+            class="font-inter font-extrabold lg:text-[56px] md:text-[45px] text-[35px] text-white leading-[120%] pb-4 capitalize"
+          >
+            Here will be
+            <span
+              class="bg-linear-to-r from-[#7F5CFF] to-[#4E95FF] bg-clip-text text-transparent"
+            >
+              Course Module
+            </span>
+          </h2>
+          <p
+            class="font-hind lg:text-[18px] text-sm text-[#A9B0B8] leading-[150%] lg:w-223.5 w-full mx-auto"
+          >
+            লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস
+          </p>
+        </div>
+
+        <div
+          class="my-8 md:my-12 grid lg:grid-cols-2 grid-cols-1 gap-6 md:gap-8 items-start"
+        >
+          <div class="space-y-6">
+            <div
+              class="module-card relative p-4 w-full rounded-[10px] border border-[#7451FD] bg-[#1A2130] cursor-pointer hover:bg-[#232d42] transition-all duration-300"
+            >
+              <div class="flex gap-3">
+                <div class="bg-[#FBFF8D] p-1 rounded-[5px] shrink-0 h-8 w-8">
+                  <img
+                    src="/images/courseModuleElement.png"
+                    alt="icon"
+                    class="w-6 h-6"
+                  />
+                </div>
+                <div class="w-full">
+                  <h5
+                    class="font-hind font-semibold md:text-[18px] text-[16px] text-white leading-[150%] pt-[6px]"
+                  >
+                    মডিউলের টাইটেল এখানে থাকবে
+                  </h5>
+                </div>
+                <div class="flex items-center justify-center">
+                  <i
+                    class="fa-solid fa-angle-down text-[#A9B0B8] absolute right-4 top-5 transition-transform duration-300"
+                  ></i>
+                </div>
+              </div>
+              <p
+                class="module-content hidden font-hind font-normal text-sm text-[#A9B0B8] leading-[150%] mt-3 w-full"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। 
+              </p>
+            </div>
+            <div
+              class="module-card relative p-4 w-full rounded-[10px] border border-[#7451FD] bg-[#1A2130] cursor-pointer hover:bg-[#232d42] transition-all duration-300"
+            >
+              <div class="flex gap-3">
+                <div class="bg-[#EDB5FF] p-1 rounded-[5px] shrink-0 h-8 w-8">
+                  <img
+                    src="/images/courseModuleElement.png"
+                    alt="icon"
+                    class="w-6 h-6"
+                  />
+                </div>
+                <div class="w-full">
+                  <h5
+                    class="font-hind font-semibold md:text-[18px] text-[16px] text-white leading-[150%] pt-[6px]"
+                  >
+                    মডিউলের টাইটেল এখানে থাকবে
+                  </h5>
+                </div>
+                <div class="flex items-center justify-center">
+                  <i
+                    class="fa-solid fa-angle-down text-[#A9B0B8] absolute right-4 top-5 transition-transform duration-300"
+                  ></i>
+                </div>
+              </div>
+              <p
+                class="module-content hidden font-hind font-normal text-sm text-[#A9B0B8] leading-[150%] mt-3 w-full"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। 
+              </p>
+            </div>
+            <div
+              class="module-card relative p-4 w-full rounded-[10px] border border-[#7451FD] bg-[#1A2130] cursor-pointer hover:bg-[#232d42] transition-all duration-300"
+            >
+              <div class="flex gap-3">
+                <div class="bg-[#7DD8FF] p-1 rounded-[5px] shrink-0 h-8 w-8">
+                  <img
+                    src="/images/courseModuleElement.png"
+                    alt="icon"
+                    class="w-6 h-6"
+                  />
+                </div>
+                <div class="w-full">
+                  <h5
+                    class="font-hind font-semibold md:text-[18px] text-[16px] text-white leading-[150%] pt-[6px]"
+                  >
+                    মডিউলের টাইটেল এখানে থাকবে
+                  </h5>
+                </div>
+                <div class="flex items-center justify-center">
+                  <i
+                    class="fa-solid fa-angle-down text-[#A9B0B8] absolute right-4 top-5 transition-transform duration-300"
+                  ></i>
+                </div>
+              </div>
+              <p
+                class="module-content hidden font-hind font-normal text-sm text-[#A9B0B8] leading-[150%] mt-3 w-full"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। 
+              </p>
+            </div>
+            <div
+              class="module-card relative p-4 w-full rounded-[10px] border border-[#7451FD] bg-[#1A2130] cursor-pointer hover:bg-[#232d42] transition-all duration-300"
+            >
+              <div class="flex gap-3">
+                <div class="bg-[#A5D0B4] p-1 rounded-[5px] shrink-0 h-8 w-8">
+                  <img
+                    src="/images/courseModuleElement.png"
+                    alt="icon"
+                    class="w-6 h-6"
+                  />
+                </div>
+                <div class="w-full">
+                  <h5
+                    class="font-hind font-semibold md:text-[18px] text-[16px] text-white leading-[150%] pt-[6px]"
+                  >
+                    মডিউলের টাইটেল এখানে থাকবে
+                  </h5>
+                </div>
+                <div class="flex items-center justify-center">
+                  <i
+                    class="fa-solid fa-angle-down text-[#A9B0B8] absolute right-4 top-5 transition-transform duration-300"
+                  ></i>
+                </div>
+              </div>
+              <p
+                class="module-content hidden font-hind font-normal text-sm text-[#A9B0B8] leading-[150%] mt-3 w-full"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। 
+              </p>
+            </div>
+          </div>
+          <div class="space-y-6">
+            <div
+              class="module-card relative p-4 w-full rounded-[10px] border border-[#7451FD] bg-[#1A2130] cursor-pointer hover:bg-[#232d42] transition-all duration-300"
+            >
+              <div class="flex gap-3">
+                <div class="bg-[#96FFA2] p-1 rounded-[5px] shrink-0 h-8 w-8">
+                  <img
+                    src="/images/courseModuleElement.png"
+                    alt="icon"
+                    class="w-6 h-6"
+                  />
+                </div>
+                <div class="w-full">
+                  <h5
+                    class="font-hind font-semibold md:text-[18px] text-[16px] text-white leading-[150%] pt-[6px]"
+                  >
+                    মডিউলের টাইটেল এখানে থাকবে
+                  </h5>
+                </div>
+                <div class="flex items-center justify-center">
+                  <i
+                    class="fa-solid fa-angle-down text-[#A9B0B8] absolute right-4 top-5 transition-transform duration-300"
+                  ></i>
+                </div>
+              </div>
+              <p
+                class="module-content hidden font-hind font-normal text-sm text-[#A9B0B8] leading-[150%] mt-3 w-full"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। 
+              </p>
+            </div>
+            <div
+              class="module-card relative p-4 w-full rounded-[10px] border border-[#7451FD] bg-[#1A2130] cursor-pointer hover:bg-[#232d42] transition-all duration-300"
+            >
+              <div class="flex gap-3">
+                <div class="bg-[#FFC081] p-1 rounded-[5px] shrink-0 h-8 w-8">
+                  <img
+                    src="/images/courseModuleElement.png"
+                    alt="icon"
+                    class="w-6 h-6"
+                  />
+                </div>
+                <div class="w-full">
+                  <h5
+                    class="font-hind font-semibold md:text-[18px] text-[16px] text-white leading-[150%] pt-[6px]"
+                  >
+                    মডিউলের টাইটেল এখানে থাকবে
+                  </h5>
+                </div>
+                <div class="flex items-center justify-center">
+                  <i
+                    class="fa-solid fa-angle-down text-[#A9B0B8] absolute right-4 top-5 transition-transform duration-300"
+                  ></i>
+                </div>
+              </div>
+              <p
+                class="module-content hidden font-hind font-normal text-sm text-[#A9B0B8] leading-[150%] mt-3 w-full"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। 
+              </p>
+            </div>
+            <div
+              class="module-card relative p-4 w-full rounded-[10px] border border-[#7451FD] bg-[#1A2130] cursor-pointer hover:bg-[#232d42] transition-all duration-300"
+            >
+              <div class="flex gap-3">
+                <div class="bg-[#ABBED0] p-1 rounded-[5px] shrink-0 h-8 w-8">
+                  <img
+                    src="/images/courseModuleElement.png"
+                    alt="icon"
+                    class="w-6 h-6"
+                  />
+                </div>
+                <div class="w-full">
+                  <h5
+                    class="font-hind font-semibold md:text-[18px] text-[16px] text-white leading-[150%] pt-[6px]"
+                  >
+                    মডিউলের টাইটেল এখানে থাকবে
+                  </h5>
+                </div>
+                <div class="flex items-center justify-center">
+                  <i
+                    class="fa-solid fa-angle-down text-[#A9B0B8] absolute right-4 top-5 transition-transform duration-300"
+                  ></i>
+                </div>
+              </div>
+              <p
+                class="module-content hidden font-hind font-normal text-sm text-[#A9B0B8] leading-[150%] mt-3 w-full"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। 
+              </p>
+            </div>
+            <div
+              class="module-card relative p-4 w-full rounded-[10px] border border-[#7451FD] bg-[#1A2130] cursor-pointer hover:bg-[#232d42] transition-all duration-300"
+            >
+              <div class="flex gap-3">
+                <div class="bg-[#F68787] p-1 rounded-[5px] shrink-0 h-8 w-8">
+                  <img
+                    src="/images/courseModuleElement.png"
+                    alt="icon"
+                    class="w-6 h-6"
+                  />
+                </div>
+                <div class="w-full">
+                  <h5
+                    class="font-hind font-semibold md:text-[18px] text-[16px] text-white leading-[150%] pt-[6px]"
+                  >
+                    মডিউলের টাইটেল এখানে থাকবে
+                  </h5>
+                </div>
+                <div class="flex items-center justify-center">
+                  <i
+                    class="fa-solid fa-angle-down text-[#A9B0B8] absolute right-4 top-5 transition-transform duration-300"
+                  ></i>
+                </div>
+              </div>
+              <p
+                class="module-content hidden font-hind font-normal text-sm text-[#A9B0B8] leading-[150%] mt-3 w-full"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-center">
+          <button
+            class="relative p-4 rounded-[10px] border border-[#7451FD] overflow-hidden group cursor-pointer"
+          >
+            <span
+              class="absolute inset-0 bg-gradientNew opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+            </span>
+            <p
+              class="relative z-10 font-medium font-hind text-[18px] text-white"
+            >
+              আরও দেখুন<i class="fa-solid fa-angle-down text-white ml-2"></i>
+            </p>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- course module -->
+
+    <!-- Bonus Track Part Start Here -->
+    <section class="bg-[#050111]">
+      <div class="bg-[url('/images/bonusTrackbg.png')] bg-no-repeat bg-center bg-cover py-12 lg:py-25">
+        <div class="max-w-container w-full mx-auto px-3 xl:px-0">
+          
+          <div class="text-center">
+            <h2 class="font-hind font-bold text-[32px] md:text-[45px] lg:text-[56px] text-white leading-[120%] pb-4 capitalize ">
+              
+              <span class="bg-linear-to-r from-[#7F5CFF] to-[#4E95FF] bg-clip-text text-transparent ">
+                ফ্রিতে শিখুন
+              </span>
+            </h2>
+            <p class="font-hind text-sm md:text-base lg:text-[18px] text-[#A9B0B8] leading-[150%] lg:w-[894px] mx-auto">
+              লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস
+            </p>
+          </div>
+          <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+            
+            <div class="py-6 px-4 rounded-[10px] bg-[#050111] border border-b-[#FBFF8D] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(251,255,141,0.4)] cursor-pointer">
+              <img class="mx-auto w-auto h-auto" src="/images/bonusImgOne.png" alt="Bonus One" />
+              <div class="flex items-center gap-2 justify-center pt-4">
+                <p class="font-hind font-medium text-[13px] text-white leading-[150%]">
+                  এখানে কোর্সের নাম থাকবে
+                </p>
+                <i class="fa-solid fa-arrow-right-long text-white"></i>
+              </div>
+            </div>
+
+            <div class="py-6 px-4 rounded-[10px] bg-[#050111] border border-b-[#7DD8FF] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(125,216,255,0.5)] cursor-pointer">
+              <img class="mx-auto w-auto h-auto" src="/images/bonusImgtwo.png" alt="Bonus Two" />
+              <div class="flex items-center gap-2 justify-center pt-4">
+                <p class="font-hind font-medium text-[13px] text-white leading-[150%]">
+                  এখানে কোর্সের নাম থাকবে
+                </p>
+                <i class="fa-solid fa-arrow-right-long text-white"></i>
+              </div>
+            </div>
+
+            <div class="py-6 px-4 rounded-[10px] bg-[#050111] border border-b-[#96FFA2] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(150,255,162,0.5)] cursor-pointer">
+              <img class="mx-auto w-auto h-auto" src="/images/bonusImgthree.png" alt="Bonus Three" />
+              <div class="flex items-center gap-2 justify-center pt-4">
+                <p class="font-hind font-medium text-[13px] text-white leading-[150%]">
+                  এখানে কোর্সের নাম থাকবে
+                </p>
+                <i class="fa-solid fa-arrow-right-long text-white"></i>
+              </div>
+            </div>
+
+            <div class="py-6 px-4 rounded-[10px] bg-[#050111] border border-b-[#EDB5FF] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(237,181,255,0.5)] cursor-pointer">
+              <img class="mx-auto w-auto h-auto" src="/images/bonusImgFour.png" alt="Bonus Four" />
+              <div class="flex items-center gap-2 justify-center pt-4">
+                <p class="font-hind font-medium text-[13px] text-white leading-[150%]">
+                  এখানে কোর্সের নাম থাকবে
+                </p>
+                <i class="fa-solid fa-arrow-right-long text-white"></i>
+              </div>
+            </div>
+
+          </div>
+          </div>
+      </div>
+    </section>
+    <!-- Bonus Track Part End Here -->
+
+    <!-- Projects Part Start -->
+    <section id="projectsPart">
+      <div class="projects">
+        <div class="max-w-container mx-auto px-3 xl:px-0">
+          <div class="heading projectsHead ">
+            <h3>এখানে ওয়েব <span>প্রজেক্টগুলো থাকবে</span></h3>
+            <p>
+              লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস
+            </p>
+          </div>
+          <div class="allProjects">
+            <div class="projectDetails">
+              <div class="projectDetailsImg">
+                <img src="images/projectImg.png" alt="projectImg" />
+                <span>এখানে প্রজেক্টের ছবি থাকবে</span>
+              </div>
+              <h4>Expert Consulting Website</h4>
+              <div class="projectDetailsBtn">
+                <button type="button" class="btnOne">JavaScript</button>
+                <button type="button" class="btnTwo">Rubi</button>
+                <button type="button" class="btnThree">Laravel</button>
+              </div>
+            </div>
+            <div class="projectDetails">
+              <div class="projectDetailsImg">
+                <img src="images/projectImg.png" alt="projectImg" />
+                <span>এখানে প্রজেক্টের ছবি থাকবে</span>
+              </div>
+              <h4>Service Marketplace</h4>
+              <div class="projectDetailsBtn">
+                <button type="button" class="btnFour">JavaScript</button>
+                <button type="button" class="btnFive">Python</button>
+                <button type="button" class="btnSix">C++</button>
+              </div>
+            </div>
+            <div class="projectDetails">
+              <div class="projectDetailsImg">
+                <img src="images/projectImg.png" alt="projectImg" />
+                <span>এখানে প্রজেক্টের ছবি থাকবে</span>
+              </div>
+              <h4>Woo-commerce platform</h4>
+              <div class="projectDetailsBtn">
+                <button type="button" class="btnSeven">HTML</button>
+                <button type="button" class="btnEight">CSS</button>
+                <button type="button" class="btnNine">Tailwind</button>
+              </div>
+            </div>
+            <div class="projectDetails">
+              <div class="projectDetailsImg">
+                <img src="images/projectImg.png" alt="projectImg" />
+                <span>এখানে প্রজেক্টের ছবি থাকবে</span>
+              </div>
+              <h4>Travel Solutions platform</h4>
+              <div class="projectDetailsBtn">
+                <button type="button" class="btnTen">Python</button>
+                <button type="button" class="btnEleven">React.JS</button>
+                <button type="button" class="btnTwelve">Node.js</button>
+              </div>
+            </div>
+            <div class="projectDetails">
+              <div class="projectDetailsImg">
+                <img src="images/projectImg.png" alt="projectImg" />
+                <span>এখানে প্রজেক্টের ছবি থাকবে</span>
+              </div>
+              <h4>Service Marketplace</h4>
+              <div class="projectDetailsBtn">
+                <button type="button" class="btnFour">JavaScript</button>
+                <button type="button" class="btnFive">Python</button>
+                <button type="button" class="btnSix">C++</button>
+              </div>
+            </div>
+            <div class="projectDetails">
+              <div class="projectDetailsImg">
+                <img src="images/projectImg.png" alt="projectImg" />
+                <span>এখানে প্রজেক্টের ছবি থাকবে</span>
+              </div>
+              <h4>Expert Consulting Website</h4>
+              <div class="projectDetailsBtn">
+                <button type="button" class="btnOne">JavaScript</button>
+                <button type="button" class="btnTwo">Rubi</button>
+                <button type="button" class="btnThree">Laravel</button>
+              </div>
+            </div>
+            <div class="projectDetails">
+              <div class="projectDetailsImg">
+                <img src="images/projectImg.png" alt="projectImg" />
+                <span>এখানে প্রজেক্টের ছবি থাকবে</span>
+              </div>
+              <h4>Travel Solutions platform</h4>
+              <div class="projectDetailsBtn">
+                <button type="button" class="btnTen">Python</button>
+                <button type="button" class="btnEleven">React.JS</button>
+                <button type="button" class="btnTwelve">Node.js</button>
+              </div>
+            </div>
+            <div class="projectDetails">
+              <div class="projectDetailsImg">
+                <img src="images/projectImg.png" alt="projectImg" />
+                <span>এখানে প্রজেক্টের ছবি থাকবে</span>
+              </div>
+              <h4>Woo-commerce platform</h4>
+              <div class="projectDetailsBtn">
+                <button type="button" class="btnSeven">HTML</button>
+                <button type="button" class="btnEight">CSS</button>
+                <button type="button" class="btnNine">Tailwind</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Part End -->
+
+    <!-- Roadmap Part Start -->
+    <section id="roadmapPart">
+      <div class="roadmap">
+        <div class="max-w-container mx-auto px-3 xl:px-0">
+          <div class="heading roadmapHead">
+            <h3>একটি এক্সাইটিং <span>লার্নিং জার্নি রোডম্যাপ</span></h3>
+            <p>
+              লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস
+            </p>
+          </div>
+          <div class="allRoadmaps">
+            <div class="allRoadmapsFlex">
+              <div
+                class=" bg-linear-to-br from-[#CCA3FF] via-[#050111] via-50% to-[#050111] p-0.5 lg:w-[31%] rounded-[20px]">
+                <div class="roadmapContent roadmapContentFirst w-full!">
+                  <div class="serial">
+                    <div class="serialNum">
+                      <span>1</span>
+                    </div>
+                    <div class="line lineOne"></div>
+                  </div>
+                  <h4>লার্নিং জার্নির শিরোনাম এখানে থাকবে</h4>
+                  <p>
+                    লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। 
+                  </p>
+                </div>
+              </div>
+              <div
+                class=" bg-linear-to-tr from-[#36FF6C] via-[#050111] via-50% to-transparent p-0.5 lg:w-[31%] rounded-[20px]">
+                <div class="roadmapContent roadmapContentFirst w-full!">
+                  <div class="serial">
+                    <div class="serialNum">
+                      <span>2</span>
+                    </div>
+                    <div class="line lineTwo"></div>
+                  </div>
+                  <h4>লার্নিং জার্নির শিরোনাম এখানে থাকবে</h4>
+                  <p>
+                    লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। 
+                  </p>
+                </div>
+              </div>
+              <div
+                class=" bg-linear-to-bl from-[#FFB265] via-[#050111] via-50% to-[#050111] p-0.5 lg:w-[31%] rounded-[20px]">
+                <div class="roadmapContent roadmapContentFirst w-full!">
+                  <div class="serial">
+                    <div class="serialNum">
+                      <span>3</span>
+                    </div>
+                    <div class="line lineThree"></div>
+                  </div>
+                  <h4>লার্নিং জার্নির শিরোনাম এখানে থাকবে</h4>
+                  <p>
+                    লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। 
+                  </p>
+                </div>
+              </div>
+              <div
+                class=" bg-linear-to-tr from-[#FF6767] via-[#050111] via-50% to-transparent p-0.5 lg:w-[48%] rounded-[20px]">
+                <div class="roadmapContent w-full!">
+                  <div class="serial">
+                    <div class="serialNum">
+                      <span>4</span>
+                    </div>
+                    <div class="line lineFour"></div>
+                  </div>
+                  <h4>লার্নিং জার্নির শিরোনাম এখানে থাকবে</h4>
+                  <p>
+                    লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। 
+                  </p>
+                </div>
+              </div>
+              <div
+                class=" bg-linear-to-tl from-[#5BA7FF] via-[#050111] via-50% to-[#050111] p-0.5 lg:w-[48%] rounded-[20px]">
+                <div class="roadmapContent w-full!">
+                  <div class="serial">
+                    <div class="serialNum">
+                      <span>5</span>
+                    </div>
+                    <div class="line lineFive"></div>
+                  </div>
+                  <h4>লার্নিং জার্নির শিরোনাম এখানে থাকবে</h4>
+                  <p>
+                    লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। 
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Roadmap Part End -->
+
+    <!--Our Students & Stories Part start-->
+    <section class="py-10 lg:py-24 bg-[#050111] px-4 sm:px-6 lg:px-10">
+      <div class="text-center mb-12 lg:mb-8">
+        <h2 class="text-white text-[35px] lg:text-[56px] font-bold font-hind leading-[120%]">
+          আমাদের শিক্ষার্থীরাই
+          <span class="bg-linear-to-r from-[#7F5CFF] to-[#4E95FF] bg-clip-text text-transparent">গল্প শেয়ার করেছেন</span>
+        </h2>
+        <p class="text-[#A9B0B8] font-hind lg:text-[18px] text-sm xl:w-[809px] mx-auto mt-4">
+          লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto">
+        <!-- Card One -->
+        <div class="bg-[#FDF5E6] flex flex-col sm:flex-row items-start rounded-3xl overflow-hidden p-4 ">
+          <div class="w-full sm:w-[40%]">
+            <img
+              src="images/Rafi.png"
+              alt="Rafi"
+              class="lg:w-[274px] lg:h-[228px] object-cover rounded-[18px]"
+            />
+          </div>
+          <div class="w-full sm:w-[60%] pl-4 flex flex-col justify-center gap-y-2 sm:gap-y-0 mt-5 sm:mt-0">
+            <div class="flex items-center gap-1 mb-2.5">
+              <span class="font-bold font-hind text-lg">৫.০</span>
+              <div class="text-[#FF9B03] flex text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="text-[#38435C] font-hind text-[14px] leading-relaxed sm:mb-8 mb-2">
+              লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকট
+            </p>
+            <h5 class="text-[18px] font-hind font-bold text-[#050111]">মেসবাউল হক</h5>
+            <p class="text-[12px] text-[#38435C] font-hind font-medium">ব্যাচ - FDR 2504</p>
+          </div>
+        </div>
+
+        <!-- Card Two -->
+        <div class="bg-[#EFF8F2] flex flex-col sm:flex-row items-start rounded-3xl overflow-hidden p-4 ">
+          <div class="w-full sm:w-[40%]">
+            <img
+              src="images/majharul.jpg"
+              alt="Majharul"
+              class="lg:w-[274px] lg:h-[228px] object-cover rounded-[18px]"
+            />
+          </div>
+          <div class="w-full sm:w-[60%] pl-4 flex flex-col justify-center gap-y-2 sm:gap-y-0 mt-5 sm:mt-0">
+            <div class="flex items-center gap-1 mb-2.5">
+              <span class="font-bold font-hind text-lg">৫.০</span>
+              <div class="text-[#FF9B03] flex text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="text-[#38435C] font-hind text-[14px] leading-relaxed sm:mb-8 mb-2">
+              লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকট
+            </p>
+            <h5 class="text-[18px] font-bold font-hind text-[#050111]">মাজহারুল ইসলাম</h5>
+            <p class="text-[12px] text-[#38435C] font-hind font-medium">ব্যাচ - FDR 2504</p>
+          </div>
+        </div>
+
+        <!-- Card Three -->
+        <div class="bg-white flex flex-col sm:flex-row items-start rounded-3xl overflow-hidden p-4 ">
+          <div class="w-full sm:w-[40%]">
+            <img
+              src="images/Shoumen Biswas.jpg"
+              alt="Shoumen"
+              class="lg:w-[274px] lg:h-[228px] object-cover rounded-[18px]"
+            />
+          </div>
+          <div class="w-full sm:w-[60%] pl-4 flex flex-col justify-center gap-y-2 sm:gap-y-0 mt-5 sm:mt-0">
+            <div class="flex items-center gap-1 mb-2.5">
+              <span class="font-bold font-hind text-lg">৫.০</span>
+              <div class="text-[#FF9B03] flex text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="text-[#38435C] font-hind text-[14px] leading-relaxed sm:mb-8 mb-2">
+              লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস। লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকট
+            </p>
+            <h5 class="text-[18px] font-bold font-hind text-[#050111]">সৌমেন বিশ্বাস</h5>
+            <p class="text-[12px] text-[#38435C] font-hind font-medium">ব্যাচ - FDR 2504</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Students & Stories Part  -->
+
+    <!-- start career start -->
+    <section id="startCareer">
+      <div class="bg-[#080414] lg:py-30 py-8 relative">
+        <div
+          class="absolute left-1/2 -translate-x-1/2 bottom-5 hidden lg:block"
+        >
+          <img src="images/smoke.png" alt="" class="w-full" />
+        </div>
+        <div class="max-w-container mx-auto px-3 xl:px-0">
+          <div
+            class="lg:py-17.5 py-10 px-3 lg:px-15.75 bg-[url('/images/careerStart.png')] bg-center bg-cover bg-no-repeat border border-[#7451FD] rounded-[20px] relative z-50"
+          >
+            <div class="flex flex-col lg:flex-row gap-y-8 justify-between lg:gap-x-10 xl:gap-x-10">
+              <div class="left">
+                <h3
+                  class="lg:text-[56px] text-[35px] lg:text-left text-center font-bold font-hind text-white"
+                >
+                  আপনার ক্যারিয়ার
+                </h3>
+                <div
+                  class="lg:text-[56px] text-[35px] lg:text-left text-center font-bold font-hind text-white "
+                >
+                  <h3 class="text-brand">শুরু করার জন্য প্রস্তুত</h3>
+                </div>
+                <p
+                  class="py-4 font-hind text-[#A9B0B8] lg:text-[18px] text-sm text-center lg:text-left lg:w-125.25"
+                >
+                  লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। 
+                </p>
+                <div
+                  class="px-4 py-2.5 bg-[#FBFF8D] rounded-full mx-auto lg:mx-0 w-58 flex  gap-x-2 items-center"
+                >
+                  <img src="images/siren.png" alt="siren.png" />
+                  <p class="text-base font-medium font-hind text-[#38435C]">
+                    সীমিত আসন আছে
+                  </p>
+                </div>
+                <div class="pt-6">
+                  <img src="images/icons.png" alt="" class="mx-auto"/>
+                </div>
+              </div>
+              <!-- right side -->
+              <div class="right">
+                <!-- input field -->
+              <div
+                class="relative p-0.75 w-full xl:w-115.25 rounded-[10px] overflow-hidden  shadow-newShadow"
+              >
+                <div
+                  class="absolute inset-0 linearInput"
+                ></div>
+                <div class="relative bg-[#050111] rounded-[9px] p-6 z-10">
+                  <div class="text text-white pb-8">
+                    <h3
+                      class="text-center text-[28px] font-semibold font-hind leading-[150%]"
+                    >
+                      আপনার আসন এখনই নিশ্চিত করুন
+                    </h3>
+                    <p class="text-center font-hind text-[#A9B0B8] text-base">
+                      আপনার পেশাদার ক্যারিয়ার বিনামূল্যে শুরু করুন
+                    </p>
+                  </div>
+                  <div class="name py-1">
+                    <h4
+                      class="text-[12px] font-hind font-medium text-[#A9B0B8] pb-2"
+                    >
+                      আপনার পুরো নাম
+                    </h4>
+                    <div class="relative">
+                      <input
+                        type="text"
+                        placeholder="এখানে লিখুন"
+                        class="peer py-2.5 px-9 bg-[#1A2130] focus:bg-[#45587C] duration-300 w-full rounded-[10px] border border-[#7451FD] outline-none placeholder:text-[#6F7B88] focus:placeholder:text-white text-[12px] text-white font-medium font-hind"
+                      />
+                      <i
+                        class="fa-regular fa-user absolute left-3 top-1/2 -translate-y-1/2 text-[#6F7B88] text-[12px] transition-colors duration-300 peer-focus:text-white"
+                      >
+                      </i>
+                    </div>
+                  </div>
+                  <div class="email py-3">
+                    <h4
+                      class="text-[12px] font-hind font-medium text-[#A9B0B8] pb-2"
+                    >
+                      ইমেইল ঠিকানা
+                    </h4>
+                    <div class="relative">
+                      <input
+                        type="email"
+                        placeholder="এখানে লিখুন"
+                        class="peer py-2.5 px-9 bg-[#1A2130] focus:bg-[#45587C] duration-300 w-full rounded-[10px] border border-[#7451FD] outline-none placeholder:text-[#6F7B88] focus:placeholder:text-white text-[12px] text-white font-medium font-hind"
+                      />
+                      <i
+                        class="fa-regular fa-envelope absolute left-3 top-1/2 -translate-y-1/2 text-[#6F7B88] text-[12px] transition-colors duration-300 peer-focus:text-white"
+                      >
+                      </i>
+                    </div>
+                  </div>
+                  <div class="number py-1">
+                    <h4
+                      class="text-[12px] font-hind font-medium text-[#A9B0B8] pb-2"
+                    >
+                      ফোন নম্বর
+                    </h4>
+                    <div class="relative">
+                      <input
+                        type="tel"
+                        placeholder="এখানে লিখুন"
+                        class="peer py-2.5 px-9 bg-[#1A2130] focus:bg-[#45587C] duration-300 w-full rounded-[10px] border border-[#7451FD] outline-none placeholder:text-[#6F7B88] focus:placeholder:text-white text-[12px] text-white font-medium font-hind"
+                      />
+                      <i
+                        class="fa-solid fa-phone-volume absolute left-3 top-1/2 -translate-y-1/2 text-[#6F7B88] text-[12px] transition-colors duration-300 peer-focus:text-white"
+                      >
+                      </i>
+                    </div>
+                  </div>
+                  <div class="goals pt-3 pb-6">
+                    <h4
+                      class="text-[12px] font-hind font-medium text-[#A9B0B8] pb-2"
+                    >
+                      ক্যারিয়ারের লক্ষ্য
+                    </h4>
+                    <div class="relative">
+                      <input
+                        type="text"
+                        placeholder="এখানে লিখুন"
+                        class="peer py-2.5 px-9 bg-[#1A2130] focus:bg-[#45587C] duration-300 w-full rounded-[10px] border border-[#7451FD] outline-none placeholder:text-[#6F7B88] focus:placeholder:text-white text-[12px] text-white font-medium font-hind"
+                      />
+                      <i
+                        class="fa-solid fa-award absolute left-3 top-1/2 -translate-y-1/2 text-[#6F7B88] text-[12px] transition-colors duration-300 peer-focus:text-white"
+                      >
+                      </i>
+                    </div>
+                  </div>
+                  <button
+                    class="relative p-4 rounded-[10px] border border-[#7451FD] overflow-hidden group cursor-pointer w-full"
+                  >
+                    <span
+                      class="absolute inset-0 bg-gradientNew opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    >
+                    </span>
+                    <p
+                      class="relative z-10 font-medium font-hind text-[18px] text-white"
+                    >
+                      আমার আসন বুক করুন<i
+                        class="fa-solid fa-arrow-right-long ml-2 items-center"
+                      ></i>
+                    </p>
+                  </button>
+                  <div class="mt-4">
+                    <p class="text-[14px] font-hind text-[#A9B0B8] text-center">
+                      এখানে কিছু মানানসই টেক্সট থাকবে
+                    </p>
+                  </div>
+                </div>
+              </div>
+                <!-- input field -->
+              </div>
+              <!-- right side -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- start career end -->
+
+    <!-- Development Banner Part -->
+    <section class="">
+      <div
+        class="bg-[url('/images/EDBImg.png')] py-40 bg-center bg-cover bg-no-repeat"
+      >
+        <div class="max-w-container mx-auto text-center px-3 xl:px-0">
+          <h3
+            class="xl:text-[56px] lg:text-[50px] text-[30px] text-center font-bold font-hind text-white mx-auto w-full"
+          >
+            চোখে পড়ার মতো ডিজিটাল মার্কেটিং ব্যানার
+          </h3>
+        </div>
+      </div>
+    </section>
+    <!-- Development Banner Part -->
+
+    <!-- Faq part -->
+    <section class="lg:py-[120px] py-[50px] relative bg-[#050111]">
+      <!-- Container -->
+      <!-- BG Image -->
+      <img
+        src="images/faqOne.png"
+        alt=""
+        class="absolute xl:bottom-20 xl:left-40 hidden xl:block"
+      />
+      <img
+        src="images/faqTwo.png"
+        alt=""
+        class="absolute xl:bottom-20 xl:right-40 hidden xl:block"
+      />
+      <!-- BG Image -->
+      <div class="lg:max-w-container w-full mx-auto px-2 lg:px-0">
+        <!-- Header -->
+        <h3
+          class="lg:text-[56px] font-hind text-[35px] font-bold text-center text-white"
+        >
+          প্রায়শই জিজ্ঞাসিত
+          <span
+            class="text-brand "
+            >প্রশ্নসমূহ</span
+          >
+        </h3>
+        <p
+          class="text-[#A9B0B8] font-hind lg:text-lg text-sm leading-[150%] text-center lg:w-[894px] mx-auto pt-4 pb-8"
+        >
+          লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। ডিয়াম ডিয়াম টেলুস আলট্রিসিস
+        </p>
+        <!-- Header -->
+        <!-- Content -->
+        <div
+          class="lg:w-[872px] w-full mx-auto flex-col lg:gap-y-6 gap-y-4 flex max-width"
+        >
+        <div class="w-full lg:w-218">
+          <div class="relative rounded-2xl p-[2px]">
+            <div class="rounded-2xl bg-[#100F28] p-6 relative cursor-pointer">
+              <h3 class="text-white font-semibold font-hind lg:text-lg text-[11px] lg:w-full w-full">
+                প্রায়শই জিজ্ঞাসিত প্রশ্নের জন্য শিরোনাম এখানে থাকবে
+              </h3>
+              <p
+              class="leading-[150%] font-hind mt-4 w-[90%] lg:text-lg text-[13px] text-[#A9B0B8]"
+              >
+              লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। 
+            </p>
+            <i
+            class="fa-solid fa-minus absolute lg:top-1 top-3 right-4 text-2xl text-transparent bg-clip-text bg-linear-to-r from-[#4E95FF] to-[#7F5CFF]"
+            ></i>
+          </div>
+        </div>
+      </div>
+          <div class="relative rounded-2xl p-[2px]">
+            <div class="rounded-2xl bg-[#100F28] p-6 relative cursor-pointer">
+              <h3 class="text-white font-semibold font-hind lg:text-lg text-[11px] lg:w-full w-full">
+                প্রায়শই জিজ্ঞাসিত প্রশ্নের জন্য শিরোনাম এখানে থাকবে
+              </h3>
+              <p
+                class="leading-[150%] font-hind mt-4 w-[90%] lg:text-lg text-[13px] text-[#A9B0B8]"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। 
+              </p>
+
+              <i
+                class="fa-solid fa-minus absolute lg:top-1 top-3 right-4 text-2xl text-transparent bg-clip-text bg-linear-to-r from-[#4E95FF] to-[#7F5CFF]"
+              ></i>
+            </div>
+          </div>
+          <div class="relative rounded-2xl p-[2px]">
+            <div class="rounded-2xl bg-[#100F28] p-6 relative cursor-pointer">
+              <h3 class="text-white font-semibold font-hind lg:text-lg text-[11px] lg:w-full w-full">
+                প্রায়শই জিজ্ঞাসিত প্রশ্নের জন্য শিরোনাম এখানে থাকবে
+              </h3>
+              <p
+                class="leading-[150%] font-hind mt-4 w-[90%] lg:text-lg text-[13px] text-[#A9B0B8]"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। 
+              </p>
+
+              <i
+                class="fa-solid fa-minus absolute lg:top-1 top-3 right-4 text-2xl text-transparent bg-clip-text bg-linear-to-r from-[#4E95FF] to-[#7F5CFF]"
+              ></i>
+            </div>
+          </div>
+          <div class="relative rounded-2xl p-[2px]">
+            <div class="rounded-2xl bg-[#100F28] p-6 relative cursor-pointer">
+              <h3 class="text-white font-semibold font-hind lg:text-lg text-[11px] lg:w-full w-full">
+                প্রায়শই জিজ্ঞাসিত প্রশ্নের জন্য শিরোনাম এখানে থাকবে
+              </h3>
+              <p
+                class="leading-[150%] font-hind mt-4 w-[90%] lg:text-lg text-[13px] text-[#A9B0B8]"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। 
+              </p>
+
+              <i
+                class="fa-solid fa-minus absolute lg:top-1 top-3 right-4 text-2xl text-transparent bg-clip-text bg-gradient-to-r from-[#4E95FF] to-[#7F5CFF]"
+              ></i>
+            </div>
+          </div>
+          <div class="relative rounded-2xl p-[2px]">
+            <div class="rounded-2xl bg-[#100F28] p-6 relative cursor-pointer">
+              <h3 class="text-white font-semibold font-hind lg:text-lg text-[11px] lg:w-full w-full">
+                প্রায়শই জিজ্ঞাসিত প্রশ্নের জন্য শিরোনাম এখানে থাকবে
+              </h3>
+              <p
+                class="leading-[150%] font-hind mt-4 w-[90%] lg:text-lg text-[13px] text-[#A9B0B8]"
+              >
+                লোরেম ইপসাম ডোলর সিট অ্যামেট কনসেকটetur। ওরসি এস্ট এলিট টিনসিডুন্ট ইউ এস্ট অ্যাট নন সাসিপিট। ফেলিস পোসুয়ের ম্যাসেনাস ইন্টারডুম সিট ক্রাস। এগেস্টাস সেড নাঙ্ক সোডালেস আর্কু মি ইউট ভোল্পুট লোবারটিস। 
+              </p>
+
+              <i
+                class="fa-solid fa-minus absolute lg:top-1 top-3 right-4 text-2xl text-transparent bg-clip-text bg-gradient-to-r from-[#4E95FF] to-[#7F5CFF]"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <!-- Content -->
+      </div>
+      <!-- Container -->
+    </section>
+    <!-- Faq part -->
+
+    <!-- footer part start -->
+    <section class="bg-[#050111]">
+      <footer>
+        <div
+          class="bg-[#110f30] pt-16 pb-10 lg:rounded-tl-[100px] lg:rounded-tr-[100px]"
+        >
+          <div class="xl:max-w-container w-full mx-auto px-3 xl:px-0">
+            <div
+              class="flex flex-col lg:flex-row items-center lg:justify-between lg:border-b border-[#7451FD] lg:pb-16 ml-6 lg:ml-0"
+            >
+              <div class="flex sm:justify-center lg:justify-start">
+                <img src="images/footerLogo.png" alt="footerLogo.png" />
+              </div>
+              <div class="sm:text-center">
+                <h5
+                  class="text-white text-base font-semibold font-hind capitalize pt-6 lg:pt-0"
+                >
+                  যেকোনো প্রশ্নের জন্য, আমাদের সাথে যোগাযোগ করুন
+                </h5>
+                <div
+                  class="flex flex-col lg:flex-row md:justify-center lg:justify-between gap-x-6 mt-4"
+                >
+                  <div
+                    class="text-[#A9B0B8] text-base font-roboto mx-auto mt-5 lg:mt-0"
+                  >
+                    <div class="flex items-center gap-x-1">
+                      <img src="images/phoneIcon.png" alt="phoneIcon.png" />
+                      <p class="text-base font-hind ">ফোন: ০১৭XX XXX XXX</p>
+                    </div>
+                    <div class="flex gap-x-1 items-center pt-2.5">
+                      <img src="images/phoneIcon.png" alt="phoneIcon.png" />
+                      <p class="text-base font-hind ">ফোন: ০১৭XX XXX XXX</p>
+                    </div>
+                  </div>
+                  <div
+                    class="text-[#A9B0B8] text-base font-roboto mx-auto mt-5 lg:mt-0"
+                  >
+                    <div class="flex items-center gap-x-1">
+                      <img
+                        src="images/mailIcon.png"
+                        alt="mailIcon.png"/>
+                        <p class="text-base font-hind">ইমেইল: supposemail.com</p>
+                    </div>
+                    <div class="flex gap-x-1 items-center pt-2.5">
+                      <img src="images/mailIcon.png" alt="mailIcon.png" />
+                      <p class="text-base font-hind">ইমেইল: supposemail.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <h5
+                  class="text-white text-base font-semibold font-hind capitalize pt-6 lg:pt-0"
+                >
+                  অ্যাপ ডাউনলোড করুন
+                </h5>
+                <div
+                  class="flex gap-x-4 mt-4 sm:justify-center lg:justify-start"
+                >
+                  <img src="images/playstor.png" alt="playstor.png" />
+                  <img src="images/applestor.png" alt="applestor.png" />
+                </div>
+              </div>
+            </div>
+            <!-- Compus location  -->
+            <div
+              class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 xl:gap-20 mt-10 lg:my-16 items-start justify-items-center"
+            >
+              <div class="text-center w-full">
+                <h4 class="text-[#A9B0B8] text-base font-semibold font-hind">
+                  <i class="fa-solid fa-location-dot text-[#7451FD]"></i> হেড অফিস – মেইন ক্যাম্পাস
+                </h4>
+                <p
+                  class="text-[#6F7B88] text-[12px] font-medium font-hind w-full max-w-[220px] mx-auto leading-[150%] mt-2"
+                >
+                  মমতাজ প্লাজা, ধানমন্ডি, ঢাকা,
+                </p>
+                <p class="text-[#6F7B88] text-[12px] font-medium font-hind mx-auto leading-[150%]">ফোন: +৮৮০ ১৭৭৭৩০৮৭৭৭, +৮৮০ ১৬২৪৬৬৬০০০</p>
+              </div>
+              <div class="text-center w-full">
+                <h4 class="text-[#A9B0B8] text-base font-semibold font-hind">
+                  <i class="fa-solid fa-location-dot text-[#7451FD]"></i> ক্যাম্পাস ০২ – ধানমন্ডি
+                </h4>
+                <p
+                  class="text-[#6F7B88] text-[12px] font-medium font-hind w-full max-w-[220px] mx-auto leading-[150%] mt-2"
+                >
+                 মেহের প্লাজা, ধানমন্ডি, ঢাকা
+                </p>
+                <p class="text-[#6F7B88] text-[12px] font-medium font-hind mx-auto leading-[150%]">+880 1625555444, +880 1990779782</p>
+              </div>
+              <div class="text-center w-full">
+                <h4
+                  class="text-[#A9B0B8] text-base font-semibold font-hind text-center"
+                >
+                  <i class="fa-solid fa-location-dot text-[#7451FD]"></i> মিরপুর শাখা
+                </h4>
+                <p
+                  class="text-[#6F7B88] text-[12px] font-medium font-inter w-full max-w-[235px] mx-auto leading-[150%] mt-2"
+                >
+                  এল মেরকাদো, ঢাকা ১২১৬
+                </p>
+                <p class="text-[#6F7B88] text-[12px] font-medium font-hind  mx-auto leading-[150%]">ফোন: +৮৮০১৩ ১০০ ১০০ ২৭, +৮৮০ ১৯২৪ ২২২ ৯৯৯</p>
+              </div>
+            </div>
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-x-4 mt-5 lg:mt-0 items-start"
+            >
+              <div class="text-center w-full">
+                <h4
+                  class="text-[#A9B0B8] text-base font-semibold font-hind text-center"
+                >
+                  <i class="fa-solid fa-location-dot text-[#7451FD]"></i> উত্তরা শাখা
+                </h4>
+                <p
+                  class="text-[#6F7B88] text-[12px] font-medium font-hind w-full lg:w-60 mx-auto leading-[150%] mt-2"
+                >
+                  রাজউক রাজিব কসমো শপিং কমপ্লেক্স, উত্তরা, 
+                </p>
+                <p class="text-[#6F7B88] text-[12px] font-medium font-hind w-full lg:w-60 mx-auto leading-[150%]"> ঢাকা-১২৩০ ফোন: +৮৮০ ১৯৯০৭৭৯৮২৭</p>
+              </div>
+              <!-- ctg branch -->
+              <div class="text-center w-full">
+                <h4
+                  class="text-[#A9B0B8] text-base font-semibold font-hind text-center"
+                >
+                  <i class="fa-solid fa-location-dot text-[#7451FD]"></i>
+                  চট্টগ্রাম শাখা
+                </h4>
+                <p
+                  class="text-[#6F7B88] text-[12px] font-medium font-hind w-full lg:w-70 mx-auto leading-[150%] mt-2"
+                >
+                  নং ৯, কাপাসগোলা রোড, চক বাজার, চট্টগ্রাম
+                </p>
+                <p class="text-[#6F7B88] text-[12px] font-medium font-hind w-full lg:w-70 mx-auto leading-[150%]">ফোন: +৮৮০ ১৮৪৭৪২২৯৬৫, +৮৮০ ১৮৪৭৪২২৯৬৮</p>
+              </div>
+              <!-- panchagarh branch -->
+              <div class="text-center w-full">
+                <h4
+                  class="text-[#A9B0B8] text-base font-semibold font-hind text-center"
+                >
+                  <i class="fa-solid fa-location-dot text-[#7451FD]"></i>
+                  পঞ্চগড় শাখা
+                </h4>
+                <p
+                  class="text-[#6F7B88] text-[12px] font-medium font-hind w-full lg:w-50 mx-auto leading-[150%] mt-2"
+                >
+                  আব্দুল আজিজ সুপার মার্কেট, পঞ্চগড়
+                </p>
+                <p class="text-[#6F7B88] text-[12px] font-medium font-hind w-full lg:w-50 mx-auto leading-[150%]">বাজার, ফোন: ০১৭০৪০৪৮৩৮৩</p>
+              </div>
+              <!-- canada branch -->
+              <div class="text-center w-full">
+                <h4
+                  class="text-[#A9B0B8] text-base font-semibold font-hind text-center"
+                >
+                  <i class="fa-solid fa-location-dot text-[#7451FD]"></i> কানাডা শাখা
+                </h4>
+                <p
+                  class="text-[#6F7B88] text-[12px] font-medium font-hind w-full xl:w-66.25 mx-auto leading-[150%] mt-2"
+                >
+                  ৬১ লেকউড অ্যাভিনিউ, সেন্ট জন, নিউ ব্রান্সউইক E2J 3N9,
+                </p>
+                <p class="text-[#6F7B88] text-[12px] font-medium font-hind w-full xl:w-66.25 mx-auto leading-[150%]">কানাডা, ফোন: +১ ৬৭২-৩৭৭-৯৯৭৭</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- footer part end -->
+
+    <!-- js file start -->
+    <script src="src/script.js"></script>
+    <!-- js file end -->
+  </body>
+</html>

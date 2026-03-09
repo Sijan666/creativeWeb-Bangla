@@ -1,0 +1,222 @@
+@import "tailwindcss";
+
+.container {
+  @apply max-w-container mx-auto;
+}
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-hind: "Hind Siliguri", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --spacing-container: 1140px;
+  --background-image-gradientNew: linear-gradient(
+    90deg,
+    #7f5cff 0%,
+    #4e95ff 100%
+  );
+  --shadow-newShadow: 0 4px 60px 0 rgba(72, 103, 255, 0.8);
+}
+
+
+@utility text-brand {
+  background-image: var(--background-image-gradientNew);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* animation linear bg */
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.linearInput {
+  background: conic-gradient(
+    from var(--angle),
+    #35b1ff,
+    #050111,
+    #22c55e,
+    #35b1ff
+  );
+  animation: spinGradient 4s linear infinite;
+}
+
+@keyframes spinGradient {
+  to {
+    --angle: 360deg;
+  }
+}
+/* animation linear bg */
+
+/* Ashfak Maumud */
+/* ============= */
+/* Common Start */
+
+.heading {
+  @apply text-center border-b border-b-[#7451FD];
+}
+.heading h3 {
+  @apply text-white lg:text-[56px] text-[35px] font-hind font-extrabold leading-tight mx-auto xl:w-208.75 w-full capitalize;
+}
+.heading h3 span {
+  @apply text-brand ;
+}
+.heading p {
+  @apply lg:w-[894px] mx-auto text-[#A9B0B8] lg:text-[18px] text-sm font-hind pt-4 px-2 lg:px-0;
+}
+/* Common End */
+
+/* Projects Part Start */
+/* #projectsPart {
+  @apply bg-[#050111];
+} */
+.projects {
+  @apply bg-[url('/images/projectsBG.png')] bg-no-repeat bg-cover bg-center lg:py-28.5 md:py-12 py-10;
+}
+.projectsHead {
+  @apply pb-8 mb-8;
+}
+.allProjects {
+  @apply grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-6;
+}
+.projectDetails {
+  @apply bg-[#050111] rounded-2xl border border-[#1A2130] p-4;
+}
+.projectDetailsImg {
+  @apply relative;
+}
+.projectDetailsImg img {
+  @apply w-full;
+}
+.projectDetailsImg span {
+  @apply absolute top-1/2 left-1/2 -translate-1/2 w-52.5 text-white text-[12px] font-hind text-center bg-[#120B50CC] p-2.5;
+}
+.projectDetails h4 {
+  @apply text-white text-base font-roboto font-semibold pt-4 pb-10;
+}
+.projectDetailsBtn {
+  @apply flex items-center gap-x-2;
+}
+.projectDetailsBtn button {
+  @apply text-[12px] font-roboto rounded-sm cursor-pointer px-2 py-1;
+}
+.btnOne {
+  @apply text-[#F0C0FF] bg-[#6A3A7D];
+}
+.btnTwo {
+  @apply text-[#4891FF] bg-[#233981];
+}
+.btnThree {
+  @apply text-[#FF9697] bg-[#683D3E];
+}
+.btnFour {
+  @apply text-[#9387FF] bg-[#453576];
+}
+.btnFive {
+  @apply text-[#96FFA2] bg-[#3D6849];
+}
+.btnSix {
+  @apply text-[#FFC081] bg-[#7C523D];
+}
+.btnSeven {
+  @apply text-[#B8C1D4] bg-[#51555B];
+}
+.btnEight {
+  @apply text-[#FFF396] bg-[#68653D];
+}
+.btnNine {
+  @apply text-[#42C6FF] bg-[#265479];
+}
+.btnTen {
+  @apply text-[#96FFA2] bg-[#3D6849];
+}
+.btnEleven {
+  @apply text-[#FFFFFF] bg-[#68653D];
+}
+.btnTwelve {
+  @apply text-[#BEB3FF] bg-[#3A4683];
+}
+/* Projects Part End */
+
+/* Roadmap Part Start */
+#roadmapPart {
+  @apply bg-[#050111];
+}
+
+.roadmap {
+  @apply bg-[url(/images/roadmapBG.png)] bg-no-repeat bg-cover bg-center py-10;
+}
+
+.roadmapHead {
+  @apply border-none pb-8;
+}
+
+.allRoadmapsFlex {
+  @apply flex flex-wrap md:justify-center gap-6 grow;
+}
+
+.allRoadmapsGridTwo {
+  @apply grid lg:grid-cols-2 gap-6 pt-6;
+}
+
+.roadmapContent {
+  @apply bg-[#050111] rounded-[20px] p-6;
+}
+
+.serial {
+  @apply flex items-center;
+}
+
+.serialNum {
+  @apply h-14 w-14 bg-[#38435C] rounded-[10px] flex items-center justify-center;
+}
+
+.serialNum span {
+  @apply text-white text-[32px] font-inter font-semibold;
+}
+
+.line {
+  @apply h-0.75 rounded-full bg-linear-to-r via-26% to-[#FFFFFF00] w-[90%];
+}
+
+.lineOne {
+  @apply from-[#CCA3FF] via-[#CCA3FF];
+}
+
+.lineTwo {
+  @apply from-[#36FF6C] via-[#36FF6C];
+}
+
+.lineThree {
+  @apply from-[#FFB265] via-[#FFB265];
+}
+
+.lineFour {
+  @apply from-[#FF6767] via-[#FF6767] lg:w-103.5;
+}
+
+.lineFive {
+  @apply from-[#5BA7FF] via-[#5BA7FF] lg:w-103.5;
+}
+
+.roadmapContent {
+  @apply md:w-[48%] grow;
+}
+
+.roadmapContentFirst {
+  @apply lg:w-[30%];
+}
+
+.roadmapContent h4 {
+  @apply text-white text-xl font-hind font-semibold pt-4 pb-2;
+}
+
+.roadmapContent p {
+  @apply text-[#6F7B88] text-sm font-hind leading-[150%];
+}
+
+/* Roadmap Part End */
+/* ============= */
+/* Ashfak Maumud */
