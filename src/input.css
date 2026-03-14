@@ -15,6 +15,7 @@
     #4e95ff 100%
   );
   --shadow-newShadow: 0 4px 60px 0 rgba(72, 103, 255, 0.8);
+  --shadow-sessionShadow: 0 10px 30px 0 rgba(69, 56, 188, 0.6);
 }
 
 
